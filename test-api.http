@@ -1,0 +1,17 @@
+### Test API Endpoints
+
+### Get all users
+GET http://localhost:8000/api/users
+
+### Create a new user
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 30
+}
+
+### Get products
+GET http://localhost:8000/api/products
